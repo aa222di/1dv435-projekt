@@ -1,0 +1,14 @@
+#images {
+display: block;
+margin: auto;
+}
+
+#knappar {
+    display:block;
+    width: 223px;
+    margin: auto;
+}
+
+#aktiv {
+    text-decoration:underline;
+}

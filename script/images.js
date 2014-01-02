@@ -19,7 +19,7 @@ function changeImage (){
 
 function changeImageOnclick (button){
     clearInterval(interval);
-    paus.classList.add("paus");
+    //paus.classList.add("paus");
     
     if (button.value === "prev"){
         if(imgcount === 0){
@@ -51,13 +51,13 @@ next.onclick = function(){
 };
 
 paus.onclick = function(){
-    paus.classList.toggle("paus");
+    //paus.classList.toggle("paus");
     
-    if (paus.className === "paus"){
+    //if (paus.className === "paus"){
         clearInterval(interval);
-    }
+    //}
     
-    else {
+    /*else {
         interval= setInterval (changeImage, 1000);
-    }
+    }*/
 };

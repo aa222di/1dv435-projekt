@@ -1,26 +1,36 @@
+<!-- Gemensamt för alla sidor -->
+
 <!doctype html>
-<html lang="sv">
-    
-    <head>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karl Åberg | Start</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
         
-        <meta charset="utf-8">
-        <title>Portfolio &#124; Karl Åberg</title>
-        
-    </head>
-    
-    <body>
-        
-        <nav>
+        <nav class="top-bar" data-topbar>
             
-            <ul>
-                <li><a href="start.html">Start</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+            <ul class="title-area">
+                <li class="name"><a href="start.html"><img src="http://www.bellcontractinganddesign.com/images/u325-a.png" alt="about"></a></li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            
+            <section class="top-bar-section">
+            <ul class="right"> 
+                <li><a id="aktiv" href="portfolio.html">Portfolio</a></li>
                 <li><a href="eget.html">Egna alster</a></li>
                 <li><a href="cv.html">CV</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
+            </section>
             
         </nav>
+        
+        <!-- Unikt innehåll för denna sida -->
         
         <div id="content">
             <p>Mina uppträdanden</p>
@@ -30,5 +40,11 @@
             <iframe  src="//www.youtube.com/embed/e53isqoUvGI" frameborder="0" allowfullscreen></iframe>
         </div>
         
-    </body>
+     <!-- Gemensamt för alla sidor -->
+       <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>

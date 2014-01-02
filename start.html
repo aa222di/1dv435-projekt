@@ -1,33 +1,63 @@
 <!doctype html>
-<html lang="sv">
-    
-    <head>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karl Åberg | Start</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
         
-        <meta charset="utf-8">
-        <title>Start &#124; Karl Åberg</title>
-        
-    </head>
-    
-    <body>
-        
-        <nav>
+        <nav class="top-bar" data-topbar>
             
-            <ul>
-                <li><a href="start.html">Start</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+            <ul class="title-area">
+                <li class="name"><a href="start.html"><img src="http://www.bellcontractinganddesign.com/images/u325-a.png" alt="about"></a></li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            
+            <section class="top-bar-section">
+            <ul class="right"> 
+                <li><a class="active" href="portfolio.html">Portfolio</a></li>
                 <li><a href="eget.html">Egna alster</a></li>
                 <li><a href="cv.html">CV</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
+            </section>
             
         </nav>
         
         <div id="content">
+        
             <p>Karl Åberg är en musikalartist</p>
-            <img id="images" src="http://www.pisceandelusions.org/mymedia/gallerycontent/photography/fog/spring_morning_enchantment_mb_large.jpg" alt="Karl Åberg är en musikalartist"><br>
-            <div id="knappar"> <button id="prev" type="button" name="prev" value="prev">prev</button> <button class="" id="paus" type="button" name="stopp">paus/play</button> <button id="next" type="button" value="next" name="next">next</button> </div>
+            
+                <div class="row">
+                    <div class ="large-12 columns">
+                        <img id="images" src="http://www.pisceandelusions.org/mymedia/gallerycontent/photography/fog/spring_morning_enchantment_mb_large.jpg" alt="Karl Åberg är en musikalartist"><br>
+                    </div>
+                </div> 
+                
+                    <div class="row">
+                        <div class="large-12 columns">
+                            
+                        <ul id="knappar" class="button-group round">
+                            <li><button class="small button secondary" id="prev" type="button" name="prev" value="prev">&#8592;</button></li>
+                            <li><button class="small button secondary" id="paus" type="button" name="stopp">&#9632;</button></li> 
+                            <li><button class="small button secondary" id="next" type="button" value="next" name="next">&#8594;</button></li> 
+                        </ul>
+                            
+                        </div>    
+                    </div> 
+                    
+                
         </div>
         
         <script src="script/images.js"></script>
-    </body>
+       <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
