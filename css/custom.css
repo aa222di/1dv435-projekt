@@ -12,3 +12,33 @@ margin: auto;
 #aktiv {
     text-decoration:underline;
 }
+
+.menu {
+    border-bottom: 1px solid #333;
+}
+
+#wrapfrontimg {
+    margin-top: 1%;
+    position: relative;
+    max-width: 800px;
+    max-height: 600px;
+    margin:auto;
+}
+
+#about {
+    position:absolute;
+    left: 15%;
+    bottom:30%;
+    
+    background-color:rgba(255,255,255,0.4);
+    width: 200px;
+    height: 300px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: times;
+    font-size: 10px;
+    overflow: hidden;
+    
+}

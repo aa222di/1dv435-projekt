@@ -1,3 +1,5 @@
+<!-- Gemensamt för alla sidor -->
+
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -9,17 +11,17 @@
     <script src="js/modernizr.js"></script>
   </head>
   <body>
-        
+        <div class="menu">
         <nav class="top-bar" data-topbar>
             
             <ul class="title-area">
-                <li class="name"><a href="start.html"><img src="http://www.bellcontractinganddesign.com/images/u325-a.png" alt="about"></a></li>
+                <li class="name"><a href="start.html"><img src="http://btckstorage.blob.core.windows.net/site3741/List/lesmis.png" alt="about"></a></li>
                 <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
             </ul>
             
             <section class="top-bar-section">
             <ul class="right"> 
-                <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="eget.html">Egna alster</a></li>
                 <li><a href="cv.html">CV</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
@@ -27,17 +29,21 @@
             </section>
             
         </nav>
-        
+        </div>
+        <!-- Unkt innehåll för denna sida -->
         <div id="content">
         
-            <p>Karl Åberg är en musikalartist</p>
+            
             
                 <div class="row">
-                    <div class ="large-12 columns">
-                        <img id="images" src="http://www.pisceandelusions.org/mymedia/gallerycontent/photography/fog/spring_morning_enchantment_mb_large.jpg" alt="Karl Åberg är en musikalartist"><br>
-                    </div>
-                </div> 
                 
+                    <div class ="large-12 columns">
+                        <div id="wrapfrontimg"><img id="images" src="http://www.pisceandelusions.org/mymedia/gallerycontent/photography/fog/spring_morning_enchantment_mb_large.jpg" alt="Karl Åberg är en musikalartist">
+                        <div id="about" class="hide-for-small-only"><p>den här bild-sliden är alldeles för snabbt, men det ändras i slutet, just nu har jag den så för att enkelt se att den funkar :D</p><p>Karl Åberg är en musikalartist.</p></div></div>
+                    </div>
+                     
+                </div> 
+               
                     <div class="row">
                         <div class="large-12 columns">
                             
@@ -54,6 +60,9 @@
         </div>
         
         <script src="script/images.js"></script>
+        
+        
+      <!-- Gemensamt för alla sidor -->
        <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
