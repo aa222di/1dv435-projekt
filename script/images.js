@@ -1,6 +1,6 @@
 var images = document.querySelector("#images");
 var imgcount = 0;
-var imagearr = ["http://www.pisceandelusions.org/mymedia/gallerycontent/photography/fog/spring_morning_enchantment_mb_large.jpg","http://www.pisceandelusions.org/mymedia/gallerycontent/photography/birds/many_eyes_of_a_peacock_mb_large.jpg", "http://www.pisceandelusions.org/mymedia/gallerycontent/photography/coastal/persistance_time_solitude_mb_large.jpg", "http://www.pisceandelusions.org/mymedia/gallerycontent/photography/sunrise/myrtle_beach_sunrise_mb_large.jpg"];
+var imagearr = ["img/karlhattsned.png","img/Karlscen.png", "img/karlscenbackslick.png", "img/karlscenflera.png", "img/karlhatt.png"];
 var interval = setInterval(changeImage, 5000);
 var prev = document.querySelector("#prev");
 var paus = document.querySelector("#paus");

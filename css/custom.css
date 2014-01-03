@@ -27,18 +27,21 @@ margin: auto;
 
 #about {
     position:absolute;
-    left: 15%;
-    bottom:30%;
-    
-    background-color:rgba(255,255,255,0.4);
+    left: 5%;
+    top:10%;
+    color: #ADADAD;
+    /*background-color:rgba(255,255,255,0.4);*/
     width: 200px;
     height: 300px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding: 1%;
-    font-family: times;
-    font-size: 10px;
+    
+    
+   
     overflow: hidden;
+    
+}
+
+#imp {
+    font-size: 1em;
+    font-family: 'Patrick Hand SC', sans-serif;
     
 }
