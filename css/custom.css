@@ -25,23 +25,31 @@ margin: auto;
     margin:auto;
 }
 
-#about {
+#aboutlarge {
     position:absolute;
     left: 5%;
     top:10%;
     color: #ADADAD;
-    /*background-color:rgba(255,255,255,0.4);*/
-    width: 200px;
+    width: 35%;
     height: 300px;
-    
-    
-   
     overflow: hidden;
     
 }
 
-#imp {
-    font-size: 1em;
+#aboutsmall {
+    position:absolute;
+    left: 5%;
+    top:10%;
+    color: #ADADAD;
+    width: 30%;
+    /*height: 300px;*/
+    overflow: hidden;
     font-family: 'Patrick Hand SC', sans-serif;
+    
+}
+
+#presentationstext {
+    font-size: 1em;
+    
     
 }
