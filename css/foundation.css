@@ -1461,7 +1461,7 @@ meta.foundation-mq-topbar {
       z-index: 99; }
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
-      margin-top: 80px; }
+      margin-top: 45px; }
 
 .top-bar {
   overflow: hidden;
@@ -1698,6 +1698,7 @@ meta.foundation-mq-topbar {
       height: auto !important;
       display: inline; }
       .top-bar-section ul li {
+        height:80px;  
         float: left; }
         .top-bar-section ul li .js-generated {
           display: none; }
@@ -1707,7 +1708,10 @@ meta.foundation-mq-topbar {
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 80px;
-      background: #333333; }
+      background: #333333;
+      font-size: 1.125rem;
+      color: #2BA6CB;
+      font-family: 'Raleway Dots',sans-serif}
       .top-bar-section li a:not(.button):hover {
         background: #272727; }
     .top-bar-section .has-dropdown > a {
