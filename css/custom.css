@@ -1,4 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+
+/*För att utmärka den sidan användaren befinner sig på*/
+#aktiv {
+    color:white;
+}
+
+/*Kod som gäller startsidan och bildspelet*/
 #images {
 display: block;
 margin: auto;
@@ -10,13 +17,6 @@ margin: auto;
     margin: auto;
 }
 
-#aktiv {
-    text-decoration:underline;
-}
-
-.menu {
-    border-bottom: 1px solid #333;
-}
 
 #wrapfrontimg {
     margin-top: 1%;
@@ -25,6 +25,8 @@ margin: auto;
     max-height: 600px;
     margin:auto;
 }
+
+/*Olika presentations texter för mobil och dataskärm efetrsom för mycket text på den lilla skärmen antingen skymmer bilden eller blir för liten för att vara läsbar*/
 
 #aboutlarge {
     position:absolute;
@@ -44,7 +46,6 @@ margin: auto;
     top:10%;
     color: #ADADAD;
     width: 30%;
-    /*height: 300px;*/
     overflow: hidden;
     font-family: 'Raleway Dots',sans-serif;
     
@@ -54,4 +55,33 @@ margin: auto;
     font-size: 1em;
     
     
+}
+
+
+#cv {
+    color: rgb(51, 51, 51);
+}
+
+#cv img {
+    border: 1px solid #2BA6CB;
+}
+
+
+/*Ikonen för kontaktsidan ska bara visas på storskärm*/
+
+@media only screen and (min-width: 40.063em){
+#ikonkontakt {
+    height:200px;
+    width:200px;
+    background-image:url(img/contacticon.png);
+}
+}
+
+#contact {
+    margin-top:1%;
+    
+}
+
+#contact strong,h4 {
+    color:#2BA6CB;
 }

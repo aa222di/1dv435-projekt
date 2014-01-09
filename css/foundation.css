@@ -1714,7 +1714,7 @@ meta.foundation-mq-topbar {
       color: #2BA6CB;
       font-family: 'Raleway Dots',sans-serif}
       .top-bar-section li a:not(.button):hover {
-        background: #272727; }
+        background: black; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -2066,10 +2066,11 @@ button, .button {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #d9d9d9;
+  border-color: #2BA6CB;
+  margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2; }
+  background: #D8D8D8; }
   .panel > :first-child {
     margin-top: 0; }
   .panel > :last-child {
@@ -2524,7 +2525,7 @@ form .row textarea.columns {
 /* Label Styles */
 label {
   font-size: 0.875rem;
-  color: #4d4d4d;
+  color: #2BA6CB;
   cursor: pointer;
   display: block;
   font-weight: normal;
@@ -2815,8 +2816,9 @@ fieldset {
   padding: 1.25rem;
   margin: 1.125rem 0; }
   fieldset legend {
+    color: #2BA6CB;  
     font-weight: bold;
-    background: white;
+    background: black;
     padding: 0 0.1875rem;
     margin: 0;
     margin-left: -0.1875rem; }
