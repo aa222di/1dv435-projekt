@@ -85,3 +85,7 @@ margin: auto;
 #contact strong,h4 {
     color:#2BA6CB;
 }
+
+iframe {
+    border: 0;
+}
