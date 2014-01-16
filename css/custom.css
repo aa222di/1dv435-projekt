@@ -89,3 +89,29 @@ margin: auto;
 iframe {
     border: 0;
 }
+
+@media print {
+ 
+ nav {
+     display: none;
+     
+ }
+ 
+ body {
+     background-color: white;
+     color: black;
+     
+ }
+
+#cv {
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    line-height:normal;
+}    
+
+img{
+   display: none;
+}
+
+}
